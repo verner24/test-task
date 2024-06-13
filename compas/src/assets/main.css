@@ -1,0 +1,102 @@
+@import './base.css';
+
+button {
+  line-height: 23px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.btn_color_blue {
+  background-color: #0584FE;
+  padding: 9px 18px;
+}
+a {
+  text-decoration:none;
+  color: white;
+  font-weight: 700;
+}
+
+.title-1 {
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 49px;
+}
+
+.title-2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.subtitle {
+  font-weight: 700;
+  line-height: 21px;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.grey-text {
+  font-size: 13px;
+  color: #8F8F8F;
+  line-height: 15px;
+}
+
+.text-blue {
+  color: #1253A2;
+}
+
+.ma-1 {
+  margin: 16px 0;
+}
+
+#app {
+  font-size: 18px;
+  /*max-width: 1280px;*/
+  /*margin: 0 auto;*/
+  /*padding: 2rem;*/
+  /*font-weight: normal;*/
+}
+
+.container-wrapper {
+  max-width: 1164px;
+  margin-inline: auto;
+}
+
+/*a,*/
+/*.green {*/
+/*  text-decoration: none;*/
+/*  color: hsla(160, 100%, 37%, 1);*/
+/*  transition: 0.4s;*/
+/*  padding: 3px;*/
+/*}*/
+
+/*@media (hover: hover) {*/
+/*  a:hover {*/
+/*    background-color: hsla(160, 100%, 37%, 0.2);*/
+/*  }*/
+/*}*/
+
+/*@media (min-width: 1024px) {*/
+/*  body {*/
+/*    display: flex;*/
+/*    place-items: center;*/
+/*  }*/
+
+/*  #app {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr;*/
+/*    padding: 0 2rem;*/
+/*  }*/
+/*}*/
